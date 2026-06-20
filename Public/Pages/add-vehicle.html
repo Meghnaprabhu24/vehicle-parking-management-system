@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Vehicle</title>
+</head>
+<body>
+    <img src="./images/android-chrome-192x192.png" alt="SmartPark Logo" width="80">
+    <h1>Add New Vehicle</h1>
+    <nav>
+        <div class="burger-icon">☰</div>
+        <ul class="nav-links">
+             <li><a href="vehicles.html">My Vehicle</a></li>
+             <li><a href="add-vehicle.html">Add Vehicle</a></li>
+             <li><a href="payment.html">Payment</a></li>
+             <li><a href="landing.html">Log Out</a></li>
+        </ul>
+    </nav>
+    <form action="" method="POST">
+        <label for="vnumberid">Vehicle Number</label>
+        <input type="text" id="vnumberid" name="vnumber" placeholder="Enter the no. of vehicles" required><br><br>
+        <label for="vtypeid">Vehicle Type</label>
+        <select id="vtypeid" name="vtype" required>
+            <option value="">Select Option</option>
+            <option value="scooter">Scooter</option>
+            <option value="bike">Bike</option>
+            <option value="car">car</option>
+        </select><br><br>
+        <label for="pareaid">Parking Area</label>
+        <input type="text" id="pareaid" name="parea" placeholder="Enter the Parking Area" required><br><br>
+
+        <input type="submit" value="Add Vehicle">
+
+    </form>
+    
+    <footer>
+        <p>&copy; 2025 SmartPark. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
